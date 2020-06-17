@@ -63,7 +63,10 @@ def ft_simplyprint(numbers):
         to_print += "0"
     print(to_print)
     try : 
+        for n in numbers:
+            if numbers[n] != 0:
+                return n
         return table[0]
     except:    
-        print("An error occured")
+        print("An error occured simply")
         sys.exit()
