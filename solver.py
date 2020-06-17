@@ -25,9 +25,9 @@ def degree_one(polynomes):
 
 def degree_two(polynomes) :
     print("Polynomial degree: 2")
-    a = 1
-    b = 1
-    c = 1
+    a = 0
+    b = 0
+    c = 0
     if 2 in polynomes :
         a = polynomes[2]
     if 1 in polynomes :
